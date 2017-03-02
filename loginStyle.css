@@ -3,3 +3,9 @@ input{
     font-family: Trebuchet MS;
     font-size: 150%;
 }
+div.box {
+    width: 100px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+}
