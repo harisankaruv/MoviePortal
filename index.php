@@ -15,16 +15,18 @@ and open the template in the editor.
         <?php
         // put your code here
         ?>
-        <div class="w3-card-8" style="width:50%">
-            <form class="w3-container">
+        <div class="w3-card-8" style="width:50%; margin: auto; top:50%; transform: translateY(50%); position: relative">
+            <form>
                 <div class="w3-container w3-blue">
                     <h2>Login</h2>
                 </div>
-                <input type="text" name="username" class="w3-input"/>
-                <label class="w3-label w3-validate">Username</label>
-                <input type="password" name="upass" class="w3-input"/>
-                <label class="w3-label w3-validate">Password</label>
+                <div class="w3-container w3-padding-32">
+                    <input type="text" name="username" class="w3-input"/>
+                    <label class="w3-label w3-validate">Username</label>
+                    <input type="password" name="upass" class="w3-input"/>
+                    <label class="w3-label w3-validate">Password</label>
                 <div>
+                <div class="w3-container w3-center w3-padding-12">
                     <input type="button" value="Log In" onclick="fn()" class="w3-button w3-teal w3-round-large"/>
                     <input type="button" value="Sign Up" onclick="fn2()" class="w3-button w3-green w3-round-large"/>
                 <div>
