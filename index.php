@@ -17,11 +17,13 @@ and open the template in the editor.
         ?>
         <div>
             <form>
-                <input type="text" name="username" placeholder="Username"/><br>
-                <input type="password" name="upass" placeholder="Password"/><br>
+                <span style="color:black">Username : </span>
+                <input type="text" name="username" placeholder="Username" class="w3-label w3-validate"/><br>
+                <span style="color:black">Password : </span>
+                <input type="password" name="upass" placeholder="Password" class="w3-label w3-validate"/><br>
                 <div>
-                    <input type="button" value="Log In" onclick="fn()" class="w3-button w3-teal"/>
-                    <input type="button" value="Sign Up" onclick="fn2()" class="w3-button w3-green"/>
+                    <input type="button" value="Log In" onclick="fn()" class="w3-button w3-teal w3-round-large"/>
+                    <input type="button" value="Sign Up" onclick="fn2()" class="w3-button w3-green w3-round-large"/>
                 <div>
             </form>
         </div>
