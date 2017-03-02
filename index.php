@@ -15,12 +15,15 @@ and open the template in the editor.
         <?php
         // put your code here
         ?>
-        <div>
-            <form>
-                <span style="color:black">Username : </span>
-                <input type="text" name="username" placeholder="Username" class="w3-label w3-validate"/><br>
-                <span style="color:black">Password : </span>
-                <input type="password" name="upass" placeholder="Password" class="w3-label w3-validate"/><br>
+        <div class="w3-card-8" style="width:50%">
+            <form class="w3-container">
+                <div class="w3-container w3-blue">
+                    <h2>Login</h2>
+                </div>
+                <input type="text" name="username" class="w3-input"/>
+                <label class="w3-label w3-validate">Username</label>
+                <input type="password" name="upass" class="w3-input"/>
+                <label class="w3-label w3-validate">Password</label>
                 <div>
                     <input type="button" value="Log In" onclick="fn()" class="w3-button w3-teal w3-round-large"/>
                     <input type="button" value="Sign Up" onclick="fn2()" class="w3-button w3-green w3-round-large"/>
