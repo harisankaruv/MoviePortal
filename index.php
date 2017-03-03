@@ -19,8 +19,8 @@
                     <h2 class="w3-animate-fading">Welcome to T-Book</h2>
                 </div>
                 <div class="w3-container w3-center w3-padding-12">
-                    <input type="button" value="Log In" onclick="window.location.href='signin.php'" class="w3-button w3-teal w3-round-large w3-xlarge"/>
-                    <input type="button" value="Sign Up" onclick="fn2()" class="w3-button w3-green w3-round-large w3-xlarge"/>
+                    <input type="button" value="Log In" onclick="window.location.href='signin.php'" class="w3-button w3-pink w3-round-large w3-xlarge"/>
+                    <input type="button" value="Sign Up" onclick="fn2()" class="w3-button w3-blue w3-round-large w3-xlarge"/>
                 </div>
             </form>
         </div>
