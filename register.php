@@ -35,7 +35,10 @@
                 </div>
                 <div class="w3-center w3-padding-12">
                     <input type="button" class="w3-button w3-teal w3-round-large w3-ripple" value="Sign up" onclick="fn()"/>
+                    <br><br>
+                    <a href="signin.php">Already registered? Login here!</a>
                 </div>
+                
             </form>
         </div>
         <!--<div class="w3-container w3-teal w3-bottom">
