@@ -13,35 +13,33 @@
         <div class="w3-container w3-teal">
             <h1>T-Book Online</h1>
         </div>
-        <div class="w3-card-8" style="width:50%; margin: auto; top:50%; position: relative; transform: translateY(25%) ">
+        <div class="w3-card-8" style="width:50%; margin: auto; position: relative; transform: translateY(10%) ">
             <form>
                 <div class="w3-container w3-blue">
                     <h2 class="w3-animate-right">Sign Up</h2>
                 </div>
                 <div class="w3-container w3-padding-12">
-                    <div class="w3-left">
-                        <input type="text" name="fname" class="w3-input w3-left" style="background-color: transparent"/>
-                        <label class="w3-label">First Name</label>
-                    </div>
-                    <div class="w3-right">
-                        <input type="text" name="lname" class="w3-input w3-right" style="background-color: transparent"/>
-                        <label class="w3-label">Last Name</label>
-                    </div>
-                    <input type="email" name="mailid" class="w3-input" style="background-color: transparent"/>
+                    <input type="text" name="fname" class="w3-input w3-animate-input w3-hover-teal" style="background-color: transparent; width: 50%"/>
+                    <label class="w3-label">First Name</label>
+                    <input type="text" name="lname" class="w3-input w3-animate-input w3-hover-teal" style="background-color: transparent; width: 50%"/>
+                    <label class="w3-label">Last Name</label>
+                    <input type="email" name="mailid" class="w3-input w3-animate-input w3-hover-teal" style="background-color: transparent; width: 50%"/>
                     <label class="w3-label">E-mail</label>
-                    <br>
-                    <input type="text" name="pass-main" class="w3-input" style="background-color: transparent"/>
+                    <input type="text" name="pass-main" class="w3-input w3-animate-input w3-hover-teal" style="background-color: transparent; width: 50%"/>
                     <label class="w3-label">Password</label>
-                    <input type="text" name="pass-confirm" class="w3-input" style="background-color: transparent"/>
+                    <input type="text" name="pass-confirm" class="w3-input w3-animate-input w3-hover-teal" style="background-color: transparent; width: 50%"/>
                     <label class="w3-label">Confirm Password</label>
+                    <br><br>
+                    <input type="checkbox" class="w3-check" name="policy"/>
+                    <label class="w3-label">I accept to the terms and policies</label><br><br>
                     <div class="w3-center">
                         <input type="button" class="w3-button w3-teal w3-round-large w3-ripple" value="Sign up" onclick="fn()"/>
                     </div>
                 </div>
             </form>
         </div>
-        <div class="w3-container w3-teal w3-bottom">
+        <!--<div class="w3-container w3-teal w3-bottom">
             <p>&copy; of Team#17</p>
-        </div>
+        </div>-->
     </body>
 </html>
