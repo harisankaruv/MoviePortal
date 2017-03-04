@@ -18,7 +18,7 @@
                 <div class="w3-container w3-blue">
                     <h2 class="w3-animate-right">Sign Up</h2>
                 </div>
-                <div class="w3-container w3-padding-32">
+                <div class="w3-container w3-padding-12">
                     <div class="w3-left">
                         <input type="text" name="fname" class="w3-input w3-left" style="background-color: transparent"/>
                         <label class="w3-label">First Name</label>
@@ -34,10 +34,9 @@
                     <label class="w3-label">Password</label>
                     <input type="text" name="pass-confirm" class="w3-input" style="background-color: transparent"/>
                     <label class="w3-label">Confirm Password</label>
-                </div>
-                <div class="w3-container w3-center w3-padding-12">
-                    <input type="button" value="Log In" onclick="fn()" class="w3-button w3-teal w3-round-large"/><br>
-                    <a href="#" style="color:green">Not Regiistered? Signup Now!</a>
+                    <div class="w3-center">
+                        <input type="button" class="w3-button w3-teal w3-round-large w3-ripple" value="Sign up" onclick="fn()"/>
+                    </div>
                 </div>
             </form>
         </div>

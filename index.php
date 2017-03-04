@@ -20,7 +20,7 @@
                 </div>
                 <div class="w3-container w3-center w3-padding-12 w3-center">
                     <input type="button" value="Log In" onclick="window.location.href='signin.php'" class="w3-button w3-teal w3-round-large w3-xlarge"/>
-                    <input type="button" value="Sign Up" onclick="fn2()" class="w3-button w3-green w3-round-large w3-xlarge"/>
+                    <input type="button" value="Sign Up" onclick="window.location.href='register.php'" class="w3-button w3-green w3-round-large w3-xlarge"/>
                 </div>
             </form>
         </div>
