@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <meta charset="UTF-8">
@@ -11,7 +6,7 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="loginStyle.css">
         <link rel="stylesheet" type="text/css" href="w3css.css">
     </head>
-    <body style="background-image: url('images/background.jpg');background-repeat: no-repeat;background-attachment: fixed; background-size: 100%">
+    <body style="background-repeat: no-repeat;background-attachment: fixed; background-size: 100%">
         <?php
         // put your code here
         ?>
@@ -32,7 +27,7 @@ and open the template in the editor.
                 </div>
                 <div class="w3-container w3-center w3-padding-12">
                     <input type="button" value="Log In" onclick="fn()" class="w3-button w3-teal w3-round-large"/><br>
-                    <a href="#" style="color:green">Not Regiistered? Signup Now!</a>
+                    <a href="#" style="color:green">Not Registered? Signup Now!</a>
                 </div>
             </form>
         </div>
