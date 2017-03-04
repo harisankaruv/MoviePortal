@@ -13,10 +13,10 @@
         <div class="w3-container w3-teal">
             <h1>T-Book Online</h1>
         </div>
-        <div class="w3-card-8" style="width:50%; margin: auto; position: relative; transform: translateY(10%) ">
+        <div class="w3-card-8 w3-padding-0" style="width:50%; margin: auto; margin-top: 2%; position: relative">
             <form>
-                <div class="w3-container w3-blue">
-                    <h2 class="w3-animate-right">Sign Up</h2>
+                <div class="w3-container w3-blue w3-center">
+                    <h2 class="w3-animate-opacity">Sign Up</h2>
                 </div>
                 <div class="w3-container w3-padding-12" style="width: 60%">
                     <input type="text" name="fname" class="w3-input w3-animate-input w3-hover-teal" style="background-color: transparent; width: 90%"/>
@@ -41,8 +41,8 @@
                 
             </form>
         </div>
-        <!--<div class="w3-container w3-teal w3-bottom">
+        <div class="w3-container w3-teal" style="top: 120%">
             <p>&copy; of Team#17</p>
-        </div>-->
+        </div>
     </body>
 </html>
