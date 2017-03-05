@@ -13,7 +13,7 @@
         <div class="w3-container w3-teal">
             <h1>T-Book Online</h1>
         </div>
-        <div class="w3-card-8" style="width:50%; margin: auto; top:50%; position: relative; transform: translateY(25%) ">
+        <div class="w3-card-8 w3-padding-0" style="width:50%; margin: auto; margin-top: 2%; margin-bottom: 2%; position: relative">
             <form>
                 <div class="w3-container w3-blue w3-center">
                     <h2 class="w3-animate-opacity">Login</h2>
@@ -33,7 +33,7 @@
                 </div>
             </form>
         </div>
-        <div class="w3-container w3-teal w3-bottom">
+        <div class="w3-container w3-teal w3-center">
             <p>&copy; of Team#17</p>
         </div>
     </body>
