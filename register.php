@@ -25,9 +25,9 @@
                     <label class="w3-label">Last Name</label>
                     <input type="email" name="mailid" class="w3-input w3-animate-input w3-hover-teal" style="background-color: transparent; width: 90%"/>
                     <label class="w3-label">E-mail</label>
-                    <input type="text" name="pass-main" class="w3-input w3-animate-input w3-hover-teal" style="background-color: transparent; width: 90%"/>
+                    <input type="password" name="pass-main" class="w3-input w3-animate-input w3-hover-teal" style="background-color: transparent; width: 90%"/>
                     <label class="w3-label">Password</label>
-                    <input type="text" name="pass-confirm" class="w3-input w3-animate-input w3-hover-teal" style="background-color: transparent; width: 90%"/>
+                    <input type="password" name="pass-confirm" class="w3-input w3-animate-input w3-hover-teal" style="background-color: transparent; width: 90%"/>
                     <label class="w3-label">Confirm Password</label>
                     <br><br>
                     <input type="checkbox" class="w3-check" name="policy"/>

@@ -28,7 +28,7 @@
                     <a href="#">Forgot Password?</a>
                 </div>
                 <div class="w3-container w3-center w3-padding-12">
-                    <input type="button" value="Log In" onclick="fn()" class="w3-button w3-teal w3-round-large"/><br>
+                    <input type="button" value="Log In" onclick="fn()" class="w3-ripple w3-button w3-teal w3-round-large"/><br>
                     <br><a href="register.php" style="color:green">Not Registered? Signup Now!</a>
                 </div>
             </form>
