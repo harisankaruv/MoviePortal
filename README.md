@@ -13,7 +13,7 @@ Need to fix the footer gap problem for sign up page.
 
 Update 3 :
 
-Fixed the gap problem of footer with container.
+Fixed the gap problem of footer and container.
 Finished most of the for index and login and sign-up pages.
 Minor works for these pages include adding background image, changing font styles, etc.
 
