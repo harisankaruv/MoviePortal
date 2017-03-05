@@ -31,7 +31,7 @@
                     <label class="w3-label">Confirm Password</label>
                     <br><br>
                     <input type="checkbox" class="w3-check" name="policy"/>
-                    <label class="w3-label">I accept to the terms and policies</label><br><br>
+                    <label class="w3-label">I accept to the <a href="#">terms and policies</a></label><br><br>
                 </div>
                 <div class="w3-center w3-padding-12">
                     <input type="button" class="w3-button w3-teal w3-round-large w3-ripple" value="Sign up" onclick="fn()"/>
