@@ -1,4 +1,20 @@
 # MoviePortal
+
+Files in the Projects so far is :
+
+PHP Files(in nbproject folder)
+    1) index.php [the start page of web page]
+    2) register.php [sign-up page for new users]
+    3) signin.php [log in page for existing users]
+
+Images(in image folder)
+    1) background.jpg [need to be changed, background image for index page]
+
+GitHub Files(in nbproject folder)
+    1) .gitignore
+    2) README.md
+
+
 Changelog
 
 Update 1 : 
